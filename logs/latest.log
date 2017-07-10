@@ -59,3 +59,18 @@ java.lang.NoSuchMethodError: org.bukkit.event.entity.EntityDamageEvent.<init>(Lo
 [16:24:05] [Server thread/INFO]: kkren lost connection: Disconnected
 [16:24:05] [Server thread/INFO]: kkren left the game
 [16:38:42] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamemode 3
+[16:39:18] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamemode 0
+[16:43:14] [Server thread/INFO]: MosAutumn_SQ tried to swim in lava
+[16:49:01] [Server thread/INFO]: MosAutumn_SQ has just earned the achievement [We Need to Go Deeper]
+[16:49:44] [Server thread/INFO]: [Server] is backuping
+[16:55:36] [Server thread/INFO]: MosAutumn_SQ has just earned the achievement [Into Fire]
+[16:55:47] [Server thread/INFO]: MosAutumn_SQ has just earned the achievement [Return to Sender]
+[16:56:27] [Server thread/INFO]: MosAutumn_SQ was slain by Blaze
+[16:56:52] [Server thread/INFO]: MosAutumn_SQ issued server command: /back
+[16:57:23] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamerule keepInventory true
+[16:57:23] [Server thread/INFO]: [MosAutumn_SQ: Game rule keepInventory has been updated to true]
+[16:57:38] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamemode 1
+[16:59:54] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamemode 0
+[17:00:09] [Server thread/INFO]: MosAutumn_SQ walked into fire whilst fighting Blaze
+[17:00:53] [Server thread/INFO]: MosAutumn_SQ issued server command: /back
+[17:02:52] [Server thread/INFO]: MosAutumn_SQ was burnt to a crisp whilst fighting Blaze
