@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "9d76e973-a047-362a-adc7-c0ff2ada8ff4",
+    "name": "MosAutumn_SQ",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c192c90f-65b5-341a-8fb6-5b0299073316",
+    "name": "Odin_fire",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "8b6506b8-7532-394a-9e29-7975e2cbb634",
+    "name": "kkren",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

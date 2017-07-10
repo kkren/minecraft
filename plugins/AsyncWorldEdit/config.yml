@@ -1,0 +1,124 @@
+awe:
+  #这里是插件配置的版本号,检查更新用
+  version: 3
+  rendering:
+    #处理一个chunk需要的tick数
+    interval: 15
+    talk-interval: 10
+    #队列中最大方块数
+    queue-max-size: 10000000
+  dispatcher:
+    #全服最多同时存在多少待处理队列
+    max-jobs: 2000
+    #全服同时最多处理多少任务
+    max-idle-runs: 200
+    max-time: 20
+  #队列中最大有多少方块待处理
+  #使用-1禁用这个设置.
+  forceFlushBlocks: 10000
+  #检查更新
+  checkVersion: true
+  #是否在执行队列的时候禁止方块更新(不禁止可能出现某些问题,例如we时砂砾掉落后原来在砂砾下方的方块才被放置)
+  physicsFreez: true
+  #使用PlotMe地皮
+  plotMeFixEnabled: true
+  #语言文件,使用英文改成english.yml
+  strings: "Chinese.yml"
+  #显示debug信息
+  debug: false
+  blocksHub:
+    logBlocks: true
+    checkAccess: false
+  #组配置
+  #权限: AWE.Groups.<group name>  
+  permissionGroups:
+    #The group entry (at least one group is required!)
+    #If a player has multiple groups, the las one defined in the config
+    #is assigned.
+    #\|/组名(AWE.Groups.<group name> 后方的<group name>)
+    default:
+      #是否是默认组(玩家没有被分配任何awe组的时候默认是此组,只能有一个组开启,多个开启或不开启后果未知)
+      isDefault: true
+      #该组玩家的最大队列数目,使用-1来允许无限创建队列(之后不再说明限定该组玩家)
+      maxJobs: 1
+      #退出时是否清空队列
+      cleanOnLogout: true
+      #默认的awe模式?? 
+      defaultMode: on
+      renderer:
+        #一次最多放置的方块数目(awe将we的操作分为多步骤执行,这里配置一个步骤最多放置多少,过多虽然减少使用时间但会导致卡顿)
+        #if you experience lag lower this and the next number, use -1 for no limit
+        blocks: 10000
+        #一步最多花费的时间,毫秒(一步执行如果使用时间超过这个值就将剩余未执行的划分到下步执行,下步的依次后推,避免执行时间过长导致卡顿)
+        time: 75
+      queue:
+        #最大待执行方块数目
+        limit-hard: 500000
+        #number of blocks on the player queue when to stop placing blocks
+        limit-soft: 250000
+      messages:
+        #是否使用BarAPI(boss血条,开启此项后与其他类似插件如bossmessage冲突)显示当前进度
+        progress-bar: true
+        #是否在聊天显示当前进度
+        progress-chat: true 
+        talkative: true
+#下面是个示例的vip组,这段配置已被屏蔽不会在游戏内生效:
+#    vip:
+#      #you can remove this, the isDefault is by default set to false
+#      isDefault: false 
+#      maxJobs: -1
+#      cleanOnLogout: false
+#      #You can omit entries with that are same value as in the default group
+#      #defaultMode: on
+#      renderer:
+#        blocks: 20000
+#        time: -1
+  #以下we指令使用本插件执行,不要更改
+  enabledOperations:
+    - undo
+    - redo
+    - fillXZ
+    - removeAbove
+    - removeBelow
+    - removeNear
+    - setBlocks
+    - replaceBlocks
+    - makeCuboidFaces
+    - makeCuboidWalls
+    - overlayCuboidBlocks
+    - naturalizeCuboidBlocks
+    - stackCuboidRegion
+    - moveCuboidRegion
+    - drainArea
+    - fixLiquid
+    - makeCylinder
+    - makeSphere
+    - makePyramid
+    - thaw
+    - simulateSnow
+    - green
+    - makePumpkinPatches
+    - makeForest
+    - makeShape
+    - deformRegion
+    - hollowOutRegion
+    - paste
+    - copy
+    - cut
+    - regenerate
+    - center
+    - drawLine
+    - drawSpline
+    - makeBiomeShape
+    - forest
+    - flora
+    - setBiome
+    - loadSchematic
+    - saveSchematic
+    - craftScript
+    - makeFaces
+    - makeWalls
+    - overlayBlocks
+    - naturalizeBlocks
+    - stackRegion
+    - moveRegion

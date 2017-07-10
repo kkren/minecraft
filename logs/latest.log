@@ -1,0 +1,61 @@
+[05:05:06] [Craft Scheduler Thread - 259/INFO]: [Vault] Checking for Updates ... 
+[05:05:07] [Craft Scheduler Thread - 259/INFO]: [Vault] Stable Version: 1.5.6 | Current Version: 1.6.6
+[09:08:51] [User Authenticator #2/INFO]: UUID of player MosAutumn_SQ is 9d76e973-a047-362a-adc7-c0ff2ada8ff4
+[09:08:51] [Server thread/INFO]: MosAutumn_SQ[/49.66.22.113:22600] logged in with entity id 207 at ([world]-88.74161795012068, 88.0, -261.3797299370743)
+[09:13:50] [pool-11-thread-1/INFO]: GroupManager - INFO -  Data files refreshed.
+[09:18:26] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update, but because of the UpdateType being set to NO_DOWNLOAD, it wasn't downloaded.[m
+[09:31:13] [Server thread/INFO]: MosAutumn_SQ has just earned the achievement [DIAMONDS!]
+[09:33:01] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamemode 3
+[09:34:39] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamemode 0
+[09:40:34] [Server thread/INFO]: MosAutumn_SQ was shot by Skeleton
+[09:55:07] [Server thread/INFO]: MosAutumn_SQ fell from a high place
+[09:57:16] [Server thread/INFO]: MosAutumn_SQ lost connection: Disconnected
+[09:57:16] [Server thread/INFO]: MosAutumn_SQ left the game
+[11:06:14] [Craft Scheduler Thread - 501/INFO]: [Vault] Checking for Updates ... 
+[11:06:16] [Craft Scheduler Thread - 501/INFO]: [Vault] Stable Version: 1.5.6 | Current Version: 1.6.6
+[16:12:13] [User Authenticator #3/INFO]: UUID of player MosAutumn_SQ is 9d76e973-a047-362a-adc7-c0ff2ada8ff4
+[16:12:14] [Server thread/INFO]: MosAutumn_SQ[/49.66.22.113:23327] logged in with entity id 2820 at ([world]-76.42196054848941, 88.0, -266.30000001192093)
+[16:13:10] [User Authenticator #3/INFO]: UUID of player kkren is 8b6506b8-7532-394a-9e29-7975e2cbb634
+[16:13:10] [Server thread/INFO]: kkren[/49.66.22.156:30395] logged in with entity id 2862 at ([world]-150.3147169222849, 65.0, 337.29097863667823)
+[16:14:37] [Server thread/INFO]: MosAutumn_SQ issued server command: /tp kkren
+[16:15:07] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamemode kkren 0
+[16:15:11] [Server thread/INFO]: kkren lost connection: 登录超时!
+[16:15:11] [Server thread/INFO]: kkren left the game
+[16:15:22] [User Authenticator #4/INFO]: UUID of player kkren is 8b6506b8-7532-394a-9e29-7975e2cbb634
+[16:15:22] [Server thread/INFO]: kkren[/49.66.22.156:30496] logged in with entity id 2997 at ([world]-150.06414730532768, 65.0, 337.0083062869455)
+[16:15:40] [Server thread/INFO]: kkren issued server command: /op Odin_fire
+[16:15:43] [Server thread/INFO]: [kkren: Opped Odin_fire]
+[16:16:25] [Async Chat Thread - #0/INFO]: [[0;37;1mworld[0;37;1m][m<[0;32;22m[0;31;1mkkren[m> 给点装备[m
+[16:16:40] [Server thread/INFO]: MosAutumn_SQ issued server command: /kill
+[16:16:45] [Server thread/INFO]: MosAutumn_SQ issued server command: /kill MosAutumn_SQ
+[16:16:45] [Server thread/ERROR]: 命令 kill 失败:
+java.lang.NoSuchMethodError: org.bukkit.event.entity.EntityDamageEvent.<init>(Lorg/bukkit/entity/Entity;Lorg/bukkit/event/entity/EntityDamageEvent$DamageCause;I)V
+	at com.earth2me.essentials.commands.Commandkill.updatePlayer(Commandkill.java:32) ~[?:?]
+	at com.earth2me.essentials.commands.EssentialsLoopCommand.loopOnlinePlayers(EssentialsLoopCommand.java:98) ~[?:?]
+	at com.earth2me.essentials.commands.Commandkill.run(Commandkill.java:23) ~[?:?]
+	at com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:151) ~[?:?]
+	at com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:146) ~[?:?]
+	at com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:465) ~[?:?]
+	at com.earth2me.essentials.Essentials.onCommand(Essentials.java:375) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:151) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.dispatchCommand(CraftServer.java:675) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
+	at net.minecraft.server.v1_11_R1.PlayerConnection.handleCommand(PlayerConnection.java:1393) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
+	at net.minecraft.server.v1_11_R1.PlayerConnection.a(PlayerConnection.java:1198) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
+	at net.minecraft.server.v1_11_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
+	at net.minecraft.server.v1_11_R1.PacketPlayInChat.a(PacketPlayInChat.java:5) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
+	at net.minecraft.server.v1_11_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:14) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_131]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_131]
+	at net.minecraft.server.v1_11_R1.SystemUtils.a(SourceFile:46) [PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.D(MinecraftServer.java:839) [PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
+	at net.minecraft.server.v1_11_R1.DedicatedServer.D(DedicatedServer.java:403) [PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.C(MinecraftServer.java:763) [PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.run(MinecraftServer.java:661) [PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
+[16:17:05] [Async Chat Thread - #0/INFO]: [[0;37;1mworld[0;37;1m][m<[0;32;22m[0;31;1mMosAutumn_SQ[m> 等等[m
+[16:17:15] [Server thread/INFO]: MosAutumn_SQ drowned
+[16:17:43] [Server thread/INFO]: MosAutumn_SQ issued server command: /tp kkren MosAutumn_SQ
+[16:24:05] [Server thread/INFO]: kkren lost connection: Disconnected
+[16:24:05] [Server thread/INFO]: kkren left the game
+[16:38:42] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamemode 3
