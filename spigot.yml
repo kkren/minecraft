@@ -20,16 +20,6 @@ messages:
   restart: Server is restarting
 settings:
   save-user-cache-on-stop-only: false
-  netty-threads: 4
-  attribute:
-    maxHealth:
-      max: 2048.0
-    movementSpeed:
-      max: 2048.0
-    attackDamage:
-      max: 2048.0
-    axHealth:
-      max: 2048.0
   bungeecord: false
   late-bind: false
   sample-count: 12
@@ -43,6 +33,16 @@ settings:
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
+  netty-threads: 4
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
+    axHealth:
+      max: 2048.0
   debug: false
 commands:
   tab-complete: 0
@@ -61,6 +61,7 @@ stats:
 world-settings:
   default:
     verbose: true
+    mob-spawn-range: 4
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -82,7 +83,6 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
-    mob-spawn-range: 4
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1

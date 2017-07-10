@@ -1,76 +1,328 @@
-[05:05:06] [Craft Scheduler Thread - 259/INFO]: [Vault] Checking for Updates ... 
-[05:05:07] [Craft Scheduler Thread - 259/INFO]: [Vault] Stable Version: 1.5.6 | Current Version: 1.6.6
-[09:08:51] [User Authenticator #2/INFO]: UUID of player MosAutumn_SQ is 9d76e973-a047-362a-adc7-c0ff2ada8ff4
-[09:08:51] [Server thread/INFO]: MosAutumn_SQ[/49.66.22.113:22600] logged in with entity id 207 at ([world]-88.74161795012068, 88.0, -261.3797299370743)
-[09:13:50] [pool-11-thread-1/INFO]: GroupManager - INFO -  Data files refreshed.
-[09:18:26] [Server thread/INFO]: [0;33;1m[ProtocolLib] The updater found an update, but because of the UpdateType being set to NO_DOWNLOAD, it wasn't downloaded.[m
-[09:31:13] [Server thread/INFO]: MosAutumn_SQ has just earned the achievement [DIAMONDS!]
-[09:33:01] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamemode 3
-[09:34:39] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamemode 0
-[09:40:34] [Server thread/INFO]: MosAutumn_SQ was shot by Skeleton
-[09:55:07] [Server thread/INFO]: MosAutumn_SQ fell from a high place
-[09:57:16] [Server thread/INFO]: MosAutumn_SQ lost connection: Disconnected
-[09:57:16] [Server thread/INFO]: MosAutumn_SQ left the game
-[11:06:14] [Craft Scheduler Thread - 501/INFO]: [Vault] Checking for Updates ... 
-[11:06:16] [Craft Scheduler Thread - 501/INFO]: [Vault] Stable Version: 1.5.6 | Current Version: 1.6.6
-[16:12:13] [User Authenticator #3/INFO]: UUID of player MosAutumn_SQ is 9d76e973-a047-362a-adc7-c0ff2ada8ff4
-[16:12:14] [Server thread/INFO]: MosAutumn_SQ[/49.66.22.113:23327] logged in with entity id 2820 at ([world]-76.42196054848941, 88.0, -266.30000001192093)
-[16:13:10] [User Authenticator #3/INFO]: UUID of player kkren is 8b6506b8-7532-394a-9e29-7975e2cbb634
-[16:13:10] [Server thread/INFO]: kkren[/49.66.22.156:30395] logged in with entity id 2862 at ([world]-150.3147169222849, 65.0, 337.29097863667823)
-[16:14:37] [Server thread/INFO]: MosAutumn_SQ issued server command: /tp kkren
-[16:15:07] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamemode kkren 0
-[16:15:11] [Server thread/INFO]: kkren lost connection: 登录超时!
-[16:15:11] [Server thread/INFO]: kkren left the game
-[16:15:22] [User Authenticator #4/INFO]: UUID of player kkren is 8b6506b8-7532-394a-9e29-7975e2cbb634
-[16:15:22] [Server thread/INFO]: kkren[/49.66.22.156:30496] logged in with entity id 2997 at ([world]-150.06414730532768, 65.0, 337.0083062869455)
-[16:15:40] [Server thread/INFO]: kkren issued server command: /op Odin_fire
-[16:15:43] [Server thread/INFO]: [kkren: Opped Odin_fire]
-[16:16:25] [Async Chat Thread - #0/INFO]: [[0;37;1mworld[0;37;1m][m<[0;32;22m[0;31;1mkkren[m> 给点装备[m
-[16:16:40] [Server thread/INFO]: MosAutumn_SQ issued server command: /kill
-[16:16:45] [Server thread/INFO]: MosAutumn_SQ issued server command: /kill MosAutumn_SQ
-[16:16:45] [Server thread/ERROR]: 命令 kill 失败:
-java.lang.NoSuchMethodError: org.bukkit.event.entity.EntityDamageEvent.<init>(Lorg/bukkit/entity/Entity;Lorg/bukkit/event/entity/EntityDamageEvent$DamageCause;I)V
-	at com.earth2me.essentials.commands.Commandkill.updatePlayer(Commandkill.java:32) ~[?:?]
-	at com.earth2me.essentials.commands.EssentialsLoopCommand.loopOnlinePlayers(EssentialsLoopCommand.java:98) ~[?:?]
-	at com.earth2me.essentials.commands.Commandkill.run(Commandkill.java:23) ~[?:?]
-	at com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:151) ~[?:?]
-	at com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:146) ~[?:?]
-	at com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:465) ~[?:?]
-	at com.earth2me.essentials.Essentials.onCommand(Essentials.java:375) ~[?:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:44) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:151) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
-	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.dispatchCommand(CraftServer.java:675) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
-	at net.minecraft.server.v1_11_R1.PlayerConnection.handleCommand(PlayerConnection.java:1393) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
-	at net.minecraft.server.v1_11_R1.PlayerConnection.a(PlayerConnection.java:1198) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
-	at net.minecraft.server.v1_11_R1.PacketPlayInChat.a(PacketPlayInChat.java:45) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
-	at net.minecraft.server.v1_11_R1.PacketPlayInChat.a(PacketPlayInChat.java:5) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
-	at net.minecraft.server.v1_11_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:14) ~[PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_131]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_131]
-	at net.minecraft.server.v1_11_R1.SystemUtils.a(SourceFile:46) [PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
-	at net.minecraft.server.v1_11_R1.MinecraftServer.D(MinecraftServer.java:839) [PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
-	at net.minecraft.server.v1_11_R1.DedicatedServer.D(DedicatedServer.java:403) [PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
-	at net.minecraft.server.v1_11_R1.MinecraftServer.C(MinecraftServer.java:763) [PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
-	at net.minecraft.server.v1_11_R1.MinecraftServer.run(MinecraftServer.java:661) [PaperSpigot-1.11.2-b1104.jar:git-Paper-1104]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_131]
-[16:17:05] [Async Chat Thread - #0/INFO]: [[0;37;1mworld[0;37;1m][m<[0;32;22m[0;31;1mMosAutumn_SQ[m> 等等[m
-[16:17:15] [Server thread/INFO]: MosAutumn_SQ drowned
-[16:17:43] [Server thread/INFO]: MosAutumn_SQ issued server command: /tp kkren MosAutumn_SQ
-[16:24:05] [Server thread/INFO]: kkren lost connection: Disconnected
-[16:24:05] [Server thread/INFO]: kkren left the game
-[16:38:42] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamemode 3
-[16:39:18] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamemode 0
-[16:43:14] [Server thread/INFO]: MosAutumn_SQ tried to swim in lava
-[16:49:01] [Server thread/INFO]: MosAutumn_SQ has just earned the achievement [We Need to Go Deeper]
-[16:49:44] [Server thread/INFO]: [Server] is backuping
-[16:55:36] [Server thread/INFO]: MosAutumn_SQ has just earned the achievement [Into Fire]
-[16:55:47] [Server thread/INFO]: MosAutumn_SQ has just earned the achievement [Return to Sender]
-[16:56:27] [Server thread/INFO]: MosAutumn_SQ was slain by Blaze
-[16:56:52] [Server thread/INFO]: MosAutumn_SQ issued server command: /back
-[16:57:23] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamerule keepInventory true
-[16:57:23] [Server thread/INFO]: [MosAutumn_SQ: Game rule keepInventory has been updated to true]
-[16:57:38] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamemode 1
-[16:59:54] [Server thread/INFO]: MosAutumn_SQ issued server command: /gamemode 0
-[17:00:09] [Server thread/INFO]: MosAutumn_SQ walked into fire whilst fighting Blaze
-[17:00:53] [Server thread/INFO]: MosAutumn_SQ issued server command: /back
-[17:02:52] [Server thread/INFO]: MosAutumn_SQ was burnt to a crisp whilst fighting Blaze
+[21:34:27] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[21:34:27] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[21:34:27] [Server thread/INFO]: Loading properties
+[21:34:27] [Server thread/INFO]: Default game type: SURVIVAL
+[21:34:28] [Server thread/INFO]: This server is running Paper version git-Paper-1104 (MC: 1.11.2) (Implementing API version 1.11.2-R0.1-SNAPSHOT)
+[21:34:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:34:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:34:28] [Server thread/INFO]: Debug logging is disabled
+[21:34:28] [Server thread/INFO]: Generating keypair
+[21:34:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:34:28] [Server thread/INFO]: Using epoll channel type
+[21:34:29] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[21:34:29] [Server thread/ERROR]: ebean.properties not found
+[21:34:29] [Server thread/INFO]: DataSourcePool [LoginSecurity] autoCommit[false] transIsolation[SERIALIZABLE] min[2] max[20]
+[21:34:29] [Server thread/INFO]: SubClassFactory parent ClassLoader [org.bukkit.plugin.java.PluginClassLoader]
+[21:34:30] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerInventory but not supported by DB Platform - ignored
+[21:34:30] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.ActionEntry but not supported by DB Platform - ignored
+[21:34:30] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerLocation but not supported by DB Platform - ignored
+[21:34:30] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.Migration but not supported by DB Platform - ignored
+[21:34:30] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerProfile but not supported by DB Platform - ignored
+[21:34:30] [Server thread/INFO]: Entities enhanced[0] subclassed[5]
+[21:34:30] [Server thread/INFO]: [AsyncWorldEditInjector] Loading AsyncWorldEditInjector v2.3.0
+[21:34:30] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.12.0
+[21:34:30] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.3;7a097ca
+[21:34:30] [Server thread/INFO]: [AsyncWorldEdit] Loading AsyncWorldEdit v2.3.0
+[21:34:30] [Server thread/INFO]: [RandomPlacer] Loading RandomPlacer v2.0
+[21:34:30] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v2.1.4
+[21:34:30] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.0.1-b332
+[21:34:30] [Server thread/INFO]: [WorldBorder] Loading WorldBorder v1.8.5
+[21:34:30] [Server thread/INFO]: [Vault] Loading Vault v1.6.6-b${env.TRAVIS_BUILD_NUMBER}
+[21:34:30] [Server thread/INFO]: [LaggRemover] Loading LaggRemover v0.2.2
+[21:34:30] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.0.2
+[21:34:30] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.11.2) has not yet been tested! Proceed with caution.
+[21:34:31] [Server thread/INFO]: [Essentials] Loading Essentials v2.0.1-b342
+[21:34:31] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.0.1-b342
+[21:34:31] [Server thread/INFO]: [PlotMe] Loading PlotMe v0.16.3
+[21:34:31] [Server thread/INFO]: [ColorMOTD] Loading ColorMOTD v1.5.3
+[21:34:31] [Server thread/INFO]: [QuickShop] Loading QuickShop v0.9.20
+[21:34:31] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.0.1-b342
+[21:34:31] [Server thread/INFO]: [PlotMe-DefaultGenerator] Loading PlotMe-DefaultGenerator v0.16.1
+[21:34:31] [Server thread/INFO]: [Residence] Loading Residence v4.5.13.6
+[21:34:31] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.0.1-b342
+[21:34:31] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5.0-SNAPSHOT-b725
+[21:34:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:34:31] [Server thread/INFO]: [AsyncWorldEditInjector] Enabling AsyncWorldEditInjector v2.3.0
+[21:34:31] [Server thread/INFO]: [AsyncWorldEditInjector] Injector platform set to: InjectorBukkit
+[21:34:31] [Server thread/INFO]: [AsyncWorldEditInjector] Injecting WorldEdit classes...
+[21:34:31] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.EditSession injected.
+[21:34:31] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.function.operation.Operations injected.
+[21:34:31] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.command.SchematicCommands injected.
+[21:34:31] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.command.ScriptingCommands injected.
+[21:34:31] [Server thread/INFO]: [AsyncWorldEditInjector] Class com.sk89q.worldedit.command.RegionCommands injected.
+[21:34:31] [Server thread/INFO]: [AsyncWorldEditInjector] Enabled
+[21:34:31] [Server thread/INFO]: [Vault] Enabling Vault v1.6.6-b${env.TRAVIS_BUILD_NUMBER}
+[21:34:31] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:34:31] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[21:34:31] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:34:31] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[21:34:31] [Server thread/INFO]: [Vault] Enabled Version 1.6.6-b${env.TRAVIS_BUILD_NUMBER}
+[21:34:31] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.0.2
+[21:34:31] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[21:34:31] [Server thread/INFO]: [PlotMe] Enabling PlotMe v0.16.3
+[21:34:31] [Server thread/WARN]: [PlotMe] This MC version is not supported yet, trying latest version!
+[21:34:32] [Server thread/INFO]: [ColorMOTD] Enabling ColorMOTD v1.5.3
+[21:34:32] [Server thread/INFO]: [ColorMOTD] ??? ProtocolLib 4.0.2 ????
+[21:34:32] [Server thread/INFO]: [ColorMOTD] ??????????..
+[21:34:32] [Server thread/INFO]: [ColorMOTD] ?????????UTF-8...
+[21:34:32] [Server thread/INFO]: [ColorMOTD] ????????...
+[21:34:32] [Server thread/INFO]: [ColorMOTD] ?????????"3.png"
+[21:34:32] [Server thread/INFO]: [ColorMOTD] ???????????????
+[21:34:32] [Server thread/INFO]: [ColorMOTD] ?????????"1.png"
+[21:34:32] [Server thread/INFO]: [ColorMOTD] ?????????"2.png"
+[21:34:32] [Server thread/INFO]: [ColorMOTD] ??????
+[21:34:32] [Server thread/INFO]: [ColorMOTD] ???????...
+[21:34:32] [Server thread/INFO]: [ColorMOTD] ????Essentials,????...
+[21:34:32] [Server thread/INFO]: [ColorMOTD] ?????MOTD???...
+[21:34:32] [Server thread/INFO]: ColorMOTD v1.5.3????,??288??
+[21:34:32] [Server thread/INFO]: [PlotMe-DefaultGenerator] Enabling PlotMe-DefaultGenerator v0.16.1
+[21:34:32] [Server thread/INFO]: [PlotMe-DefaultGenerator] PlotMe
+[21:34:32] [Server thread/INFO]: [PlotMe-DefaultGenerator] PlotMe-DefaultGenerator
+[21:34:32] [Server thread/INFO]: [PlotMe-DefaultGenerator] No old PlotMe configs to import.
+[21:34:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:34:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:34:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:34:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:34:32] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[21:34:32] [Server thread/INFO]: Preparing level "world"
+[21:34:32] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:34:32] [Server thread/INFO]: Mob Spawn Range: 4
+[21:34:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Entity Activation Range: An 12 / Mo 24 / Mi 2
+[21:34:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:34:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:34:32] [Server thread/INFO]: Random Lighting Updates: false
+[21:34:32] [Server thread/INFO]: Structure Info Saving: true
+[21:34:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[21:34:32] [Server thread/INFO]: Max TNT Explosions: 100
+[21:34:32] [Server thread/INFO]: Tile Max Tick Time: 10ms Entity max Tick Time: 20ms
+[21:34:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:34:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:34:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:34:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:34:32] [Server thread/INFO]: View Distance: 6
+[21:34:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:34:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:34:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:34:32] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[21:34:32] [Server thread/INFO]: Mob Spawn Range: 4
+[21:34:32] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:34:32] [Server thread/INFO]: Entity Activation Range: An 12 / Mo 24 / Mi 2
+[21:34:32] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:34:32] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:34:32] [Server thread/INFO]: Random Lighting Updates: false
+[21:34:32] [Server thread/INFO]: Structure Info Saving: true
+[21:34:32] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[21:34:32] [Server thread/INFO]: Max TNT Explosions: 100
+[21:34:32] [Server thread/INFO]: Tile Max Tick Time: 10ms Entity max Tick Time: 20ms
+[21:34:32] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:34:32] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:34:32] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:34:32] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:34:32] [Server thread/INFO]: View Distance: 6
+[21:34:32] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:34:32] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:34:32] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:34:33] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[21:34:33] [Server thread/INFO]: Mob Spawn Range: 4
+[21:34:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:34:33] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:34:33] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:34:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:34:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:34:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:34:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:34:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:34:33] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:34:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:34:33] [Server thread/INFO]: Entity Activation Range: An 12 / Mo 24 / Mi 2
+[21:34:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[21:34:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[21:34:33] [Server thread/INFO]: Random Lighting Updates: false
+[21:34:33] [Server thread/INFO]: Structure Info Saving: true
+[21:34:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[21:34:33] [Server thread/INFO]: Max TNT Explosions: 100
+[21:34:33] [Server thread/INFO]: Tile Max Tick Time: 10ms Entity max Tick Time: 20ms
+[21:34:33] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:34:33] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:34:33] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[21:34:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:34:33] [Server thread/INFO]: View Distance: 6
+[21:34:33] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:34:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:34:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:34:33] [Server thread/INFO]: Preparing start region for level 0 (Seed: 6180408787254772460)
+[21:34:34] [Server thread/INFO]: Preparing spawn area: 0%
+[21:34:35] [Server thread/INFO]: Preparing spawn area: 32%
+[21:34:35] [Server thread/INFO]: Preparing start region for level 1 (Seed: 6180408787254772460)
+[21:34:36] [Server thread/INFO]: Preparing start region for level 2 (Seed: 6180408787254772460)
+[21:34:36] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.12.0
+[21:34:36] [Server thread/INFO]: CoreProtect ?? 2.12.0 ?????!
+[21:34:36] [Server thread/INFO]: [CoreProtect] ???? SQLite.
+[21:34:36] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.3;7a097ca
+[21:34:37] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[21:34:37] [Server thread/WARN]: [WorldEdit] 
+**********************************************
+** This WorldEdit version does not fully support your version of Bukkit.
+**
+** When working with blocks or undoing, chests will be empty, signs
+** will be blank, and so on. There will be no support for entity
+** and biome-related functions.
+**
+** Please see http://wiki.sk89q.com/wiki/WorldEdit/Bukkit_adapters
+**********************************************
+
+[21:34:37] [Server thread/INFO]: [AsyncWorldEdit] Enabling AsyncWorldEdit v2.3.0
+[21:34:37] [Server thread/INFO]: [AsyncWorldEdit] PlotMeFix set to class org.primesoft.asyncworldedit.plotme.NullFix
+[21:34:37] [Server thread/INFO]: [AsyncWorldEditInjector] New class factory set to: org.primesoft.asyncworldedit.injector.async.AsyncClassFactory
+[21:34:38] [Server thread/INFO]: [AsyncWorldEdit] ????????. ????: 2.3.0, ??????: 2.3.3
+[21:34:38] [Server thread/INFO]: [AsyncWorldEdit] Enabled
+[21:34:38] [Server thread/INFO]: [RandomPlacer] Enabling RandomPlacer v2.0
+[21:34:38] [Server thread/INFO]: [RandomPlacer] Loading RandomPlacer config...
+[21:34:38] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v2.1.4
+[21:34:38] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[21:34:38] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[21:34:38] [Server thread/INFO]: [LoginSecurity] Connection to database....
+[21:34:38] [Server thread/INFO]: DataSourcePool [LoginSecurityDB] autoCommit[false] transIsolation[SERIALIZABLE] min[2] max[20]
+[21:34:38] [Server thread/INFO]: SubClassFactory parent ClassLoader [org.bukkit.plugin.java.PluginClassLoader]
+[21:34:38] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerInventory but not supported by DB Platform - ignored
+[21:34:38] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.ActionEntry but not supported by DB Platform - ignored
+[21:34:38] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerLocation but not supported by DB Platform - ignored
+[21:34:38] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.Migration but not supported by DB Platform - ignored
+[21:34:38] [Server thread/INFO]: Explicit Identity on com.lenis0012.bukkit.loginsecurity.storage.PlayerProfile but not supported by DB Platform - ignored
+[21:34:38] [Server thread/INFO]: Entities enhanced[0] subclassed[5]
+[21:34:38] [Server thread/INFO]: [LoginSecurity] Checking database version...
+[21:34:38] [Server thread/INFO]: [LoginSecurity] Applied 0 missing database upgrades.
+[21:34:38] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[21:34:38] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[21:34:38] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.0.1-b332
+[21:34:38] [Server thread/WARN]: GroupManager - WARNING - The group 'Builder' is claiming to be default where 'Default' already was.
+[21:34:38] [Server thread/WARN]: GroupManager - WARNING - Overriding first default request in file: plugins/GroupManager/worlds/world/groups.yml
+[21:34:38] [Server thread/INFO]: GroupManager - INFO - World Found: world
+[21:34:38] [Server thread/INFO]: GroupManager - INFO - Superperms support enabled.
+[21:34:38] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
+[21:34:38] [Server thread/INFO]: GroupManager - INFO - Backups will be retained for 24 hours!
+[21:34:38] [Server thread/INFO]: GroupManager version 2.0.1-b332 is enabled!
+[21:34:38] [Server thread/INFO]: WEPIF: GroupManager detected! Using GroupManager for permissions.
+[21:34:38] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[21:34:38] [Server thread/INFO]: [Vault][Chat] GroupManager - Chat hooked.
+[21:34:38] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v1.8.5
+[21:34:38] [Server thread/INFO]: [WorldBorder] [CONFIG] Using elliptic/round border, knockback of 3.0 blocks, and timer delay of 5.
+[21:34:38] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[21:34:38] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: -55.0 Y: 64.0 Z: -282.0
+[21:34:38] [Server thread/INFO]: [LaggRemover] Enabling LaggRemover v0.2.2
+[21:34:39] [Server thread/INFO]: [LaggRemover] ??AI???.
+[21:34:39] [Server thread/INFO]: [LaggRemover] Loaded 0 ??(s)
+[21:34:39] [Server thread/INFO]: [LaggRemover] LaggRemover has been enabled!
+[21:34:39] [Server thread/INFO]: [Essentials] Enabling Essentials v2.0.1-b342
+[21:34:39] [Server thread/INFO]: Using locale zh
+[21:34:39] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[21:34:39] [Server thread/INFO]: [Essentials] Using legacy item data provider as spawn egg provider.
+[21:34:39] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[21:34:39] [Server thread/INFO]: Using locale zh
+[21:34:39] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global PluginMetrics config.
+[21:34:39] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[21:34:39] [Server thread/INFO]: [Essentials] Using Vault based permissions (GroupManager)
+[21:34:39] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.0.1-b342
+[21:34:39] [Server thread/INFO]: [QuickShop] Enabling QuickShop v0.9.20
+[21:34:39] [Server thread/INFO]: [QuickShop] Found permission provider.
+[21:34:39] [Server thread/INFO]: [QuickShop] Limit cfg found...
+[21:34:39] [Server thread/INFO]: [QuickShop] Limits.use: false
+[21:34:39] [Server thread/INFO]: [QuickShop] {quickshop=0, quickshop.vip=20}
+[21:34:39] [Server thread/INFO]: [QuickShop] Loading shops from database...
+[21:34:39] [Server thread/INFO]: [QuickShop] Loaded 0 shops.
+[21:34:39] [Server thread/INFO]: Cleaning purchase messages from database that are over a week old...
+[21:34:39] [Server thread/INFO]: [QuickShop] Registering Listeners
+[21:34:39] [Server thread/INFO]: [QuickShop] QuickShop loaded!
+[21:34:39] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.0.1-b342
+[21:34:39] [Server thread/INFO]: [Residence] Enabling Residence v4.5.13.6
+[21:34:39] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m - Enabling multiworld plugin: Multiverse-Core[m
+[21:34:39] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5.0-SNAPSHOT-b725
+[21:34:40] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[21:34:40] [Server thread/INFO]: [Multiverse-Core] Version 2.5.0-SNAPSHOT-b725 (API v20) Enabled - By Rigby, fernferret, lithium3141 and main--
+[21:34:40] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Found Vault using permissions plugin:GroupManager[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Scanning for economy systems...[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Found Vault using economy system: Essentials Economy[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loading save data for world world...[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loaded world data. (21 ms)[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loading save data for world world_nether...[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loaded world_nether data. (0 ms)[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loading save data for world world_the_end...[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loaded world_the_end data. (0 ms)[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loading world data into memory...[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loaded world data into memory. (1 ms)[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loading world_nether data into memory...[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loaded world_nether data into memory. (0 ms)[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loading world_the_end data into memory...[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loaded world_the_end data into memory. (0 ms)[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Found WorldEdit[m
+[21:34:41] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Enabled! Version 4.5.13.6 by Zrips[m
+[21:34:41] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.0.1-b342
+[21:34:42] [Server thread/INFO]: Done (9.549s)! For help, type "help" or "?"
+[21:34:42] [Server thread/INFO]: Timings Reset
+[21:34:42] [Craft Scheduler Thread - 17/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m [0;32;1m*********************** Residence **************************[m
+[21:34:42] [Craft Scheduler Thread - 17/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m [0;32;1m* 4.7.0.5 is now available! Your version: 4.5.13.6[m
+[21:34:42] [Craft Scheduler Thread - 17/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m [0;32;1m* [0;32;22mhttps://www.spigotmc.org/resources/residence.11480/[m
+[21:34:42] [Craft Scheduler Thread - 17/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m [0;32;1m************************************************************[m
+[21:34:42] [Server thread/INFO]: GroupManager - INFO - Bukkit Permissions Updated!
+[21:34:42] [Craft Scheduler Thread - 17/INFO]: [Vault] Checking for Updates ... 
+[21:34:43] [Craft Scheduler Thread - 3/INFO]: [PlotMe] Checking if conversion to UUID needed...
+[21:34:43] [Craft Scheduler Thread - 3/INFO]: [PlotMe] No plot conversion needed
+[21:34:44] [Craft Scheduler Thread - 17/INFO]: [Vault] Stable Version: 1.5.6 | Current Version: 1.6.6
+[21:37:23] [Server thread/INFO]: Stopping the server
+[21:37:23] [Server thread/INFO]: Stopping server
+[21:37:23] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5.0-SNAPSHOT-b725
+[21:37:23] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.0.1-b342
+[21:37:23] [Server thread/INFO]: [Residence] Disabling Residence v4.5.13.6
+[21:37:23] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Disabled![m
+[21:37:23] [Server thread/INFO]: [PlotMe-DefaultGenerator] Disabling PlotMe-DefaultGenerator v0.16.1
+[21:37:23] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.0.1-b342
+[21:37:23] [Server thread/INFO]: [QuickShop] Disabling QuickShop v0.9.20
+[21:37:23] [Server thread/INFO]: [ColorMOTD] Disabling ColorMOTD v1.5.3
+[21:37:23] [Server thread/INFO]: [PlotMe] Disabling PlotMe v0.16.3
+[21:37:23] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.0.1-b342
+[21:37:23] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b342
+[21:37:23] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[21:37:23] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.0.2
+[21:37:23] [Server thread/INFO]: [LaggRemover] Disabling LaggRemover v0.2.2
+[21:37:23] [Server thread/INFO]: [LaggRemover] LaggRemover has been disabled!
+[21:37:23] [Server thread/INFO]: [Vault] Disabling Vault v1.6.6-b${env.TRAVIS_BUILD_NUMBER}
+[21:37:23] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.8.5
+[21:37:23] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[21:37:23] [Server thread/INFO]: [GroupManager] Disabling GroupManager v2.0.1-b332
+[21:37:23] [Server thread/INFO]: WEPIF: GroupManager detected! Using GroupManager for permissions.
+[21:37:23] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is disabled!
+[21:37:23] [Server thread/INFO]: GroupManager version 2.0.1-b332 is disabled!
+[21:37:23] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v2.1.4
+[21:37:23] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[21:37:23] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[21:37:23] [Server thread/INFO]: [RandomPlacer] Disabling RandomPlacer v2.0
+[21:37:23] [Server thread/INFO]: [AsyncWorldEdit] Disabling AsyncWorldEdit v2.3.0
+[21:37:23] [Server thread/INFO]: [AsyncWorldEdit] Disabled
+[21:37:23] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
+[21:37:23] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v2.12.0
+[21:37:23] [Server thread/INFO]: [AsyncWorldEditInjector] Disabling AsyncWorldEditInjector v2.3.0
+[21:37:23] [Server thread/INFO]: [AsyncWorldEditInjector] Disabled
+[21:37:23] [Server thread/INFO]: Saving players
+[21:37:23] [Server thread/INFO]: Saving worlds
+[21:37:23] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[21:37:23] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[21:37:23] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End

@@ -1,20 +1,20 @@
 lastlocation:
-  world: world_nether
-  x: 158.3062074696245
-  y: 79.0
-  z: -81.30000001192094
-  yaw: 223.79333
-  pitch: -2.6999836
+  world: world
+  x: -81.90938407218329
+  y: 89.02442408821369
+  z: -267.32851715762854
+  yaw: 135.76245
+  pitch: 39.89995
 lastAccountName: MosAutumn_SQ
 timestamps:
-  login: 1499674334096
-  lastteleport: 1499677253255
-  logout: 1499651836572
+  login: 1499678390131
+  lastteleport: 1499678862356
+  logout: 1499680012831
 ipAddress: 49.66.22.113
 logoutlocation:
   world: world
-  x: -76.42196054848941
-  y: 88.0
-  z: -266.30000001192093
-  yaw: -96.29992
-  pitch: 48.29996
+  x: -76.90253719229868
+  y: 90.0
+  z: -263.1104367567341
+  yaw: -164.54797
+  pitch: 21.749962

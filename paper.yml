@@ -14,12 +14,12 @@ config-version: 12
 settings:
   load-permissions-yml-before-plugins: true
   bungee-online-mode: true
+  incoming-packet-spam-threshold: 300
   remove-invalid-statistics: false
   min-chunk-load-threads: 2
   sleep-between-chunk-saves: false
   region-file-cache-size: 256
   save-empty-scoreboard-teams: false
-  incoming-packet-spam-threshold: 300
   enable-player-collisions: true
   player-auto-save-rate: -1
   set-health-before-death-event: false
@@ -102,14 +102,13 @@ world-settings:
         min: 20
         max: 40
     grass-spread-tick-rate: 1
-    enable-old-tnt-cannon-behaviors: false
     game-mechanics:
       disable-chest-cat-detection: false
       disable-end-credits: false
     disable-explosion-knockback: false
     elytra-hit-wall-damage: true
+    enable-old-tnt-cannon-behaviors: false
     use-alternate-fallingblock-onGround-detection: false
-    container-update-tick-rate: 1
     non-player-arrow-despawn-rate: -1
     keep-spawn-loaded: true
     armor-stands-do-collision-entity-lookups: true
@@ -123,6 +122,7 @@ world-settings:
     mob-spawner-tick-rate: 1
     all-chunks-are-slime-chunks: false
     disable-teleportation-suffocation-check: false
+    container-update-tick-rate: 1
     enable-treasure-maps: true
     treasure-maps-return-already-discovered: false
     verbose: false
