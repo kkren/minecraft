@@ -1,9 +1,9 @@
 ## ColorMOTD v1.5.3 Config
 # http://www.mcbbs.net/thread-448326-1-1.html
 Motd:
-- '&b感谢使用ColorMOTD - 这是第一条默认消息\n&d现在时间: &e%DATE% %TIME%'
-- '&b欢迎使用ColorMOTD - 这是第二条默认消息\n&d在线人数: &e%ONLINE%'
-- '&b感谢使用ColorMOTD - 这是第三条默认消息\n&d您的位置: &e%LOC%&d,服务商: &e%ISP%'
+- '&b:)\n&d现在时间: &e%DATE% %TIME%'
+- '&b==\n&d在线人数: &e%ONLINE%'
+- '&b^=^\n&d您的位置: &e%LOC%&d,服务商: &e%ISP%'
 OnlineMsg: '&a在线人数 &6%ONLINE%&7/&6%MAXPLAYER%'
 Players:
 - '&b这里是默认的悬浮文字信息'

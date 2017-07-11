@@ -43,3 +43,8 @@ login-message-delay: 10
 # List: http://lang.lenis0012.com/list
 # Note: Changing this setting will request info from lang.lenis0012.com!
 language: en_us
+# Shortcut that can be used as alternative to login/register command. Does not replace the defaults
+command-shortcut:
+  enabled: false
+  login: /l
+  register: /reg

@@ -25,11 +25,11 @@ settings:
   sample-count: 12
   player-shuffle: 0
   filter-creative-items: true
+  item-dirty-ticks: 20
   user-cache-size: 1000
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625
   moved-too-quickly-multiplier: 10.0
-  item-dirty-ticks: 20
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
@@ -61,7 +61,6 @@ stats:
 world-settings:
   default:
     verbose: true
-    mob-spawn-range: 4
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -83,6 +82,7 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
+    mob-spawn-range: 4
     ticks-per:
       hopper-transfer: 8
       hopper-check: 1
