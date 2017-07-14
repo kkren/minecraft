@@ -1,39 +1,39 @@
-[03:00:01] [Server thread/INFO]: Stopping the server
-[03:00:02] [Server thread/INFO]: Stopping server
-[03:00:02] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5.0-SNAPSHOT-b725
-[03:00:02] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.0.1-b342
-[03:00:02] [Server thread/INFO]: [Residence] Disabling Residence v4.5.13.6
-[03:00:02] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Disabled![m
-[03:00:02] [Server thread/INFO]: [PlotMe-DefaultGenerator] Disabling PlotMe-DefaultGenerator v0.16.1
-[03:00:02] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.0.1-b342
-[03:00:02] [Server thread/INFO]: [QuickShop] Disabling QuickShop v0.9.20
-[03:00:02] [Server thread/INFO]: [ColorMOTD] Disabling ColorMOTD v1.5.3
-[03:00:02] [Server thread/INFO]: [PlotMe] Disabling PlotMe v0.16.3
-[03:00:02] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.0.1-b342
-[03:00:02] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b342
-[03:00:02] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
-[03:00:02] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.0.2
-[03:00:02] [Server thread/INFO]: [LaggRemover] Disabling LaggRemover v0.2.2
-[03:00:02] [Server thread/INFO]: [LaggRemover] LaggRemover has been disabled!
-[03:00:02] [Server thread/INFO]: [Vault] Disabling Vault v1.6.6-b${env.TRAVIS_BUILD_NUMBER}
-[03:00:02] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.8.5
-[03:00:02] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
-[03:00:02] [Server thread/INFO]: [GroupManager] Disabling GroupManager v2.0.1-b332
-[03:00:02] [Server thread/INFO]: WEPIF: GroupManager detected! Using GroupManager for permissions.
-[03:00:02] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is disabled!
-[03:00:02] [Server thread/INFO]: GroupManager version 2.0.1-b332 is disabled!
-[03:00:02] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v2.1.7
-[03:00:02] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[03:00:02] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[03:00:02] [Server thread/INFO]: [RandomPlacer] Disabling RandomPlacer v2.0
-[03:00:02] [Server thread/INFO]: [AsyncWorldEdit] Disabling AsyncWorldEdit v2.3.0
-[03:00:02] [Server thread/INFO]: [AsyncWorldEdit] Disabled
-[03:00:02] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
-[03:00:02] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v2.12.0
-[03:00:02] [Server thread/INFO]: [AsyncWorldEditInjector] Disabling AsyncWorldEditInjector v2.3.0
-[03:00:02] [Server thread/INFO]: [AsyncWorldEditInjector] Disabled
-[03:00:02] [Server thread/INFO]: Saving players
-[03:00:02] [Server thread/INFO]: Saving worlds
-[03:00:02] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[03:00:02] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
-[03:00:02] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[03:00:03] [Server thread/INFO]: Stopping the server
+[03:00:03] [Server thread/INFO]: Stopping server
+[03:00:03] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5.0-SNAPSHOT-b725
+[03:00:03] [Server thread/INFO]: [EssentialsProtect] Disabling EssentialsProtect v2.0.1-b342
+[03:00:03] [Server thread/INFO]: [Residence] Disabling Residence v4.5.13.6
+[03:00:03] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Disabled![m
+[03:00:03] [Server thread/INFO]: [PlotMe-DefaultGenerator] Disabling PlotMe-DefaultGenerator v0.16.1
+[03:00:03] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.0.1-b342
+[03:00:03] [Server thread/INFO]: [QuickShop] Disabling QuickShop v0.9.20
+[03:00:03] [Server thread/INFO]: [ColorMOTD] Disabling ColorMOTD v1.5.3
+[03:00:03] [Server thread/INFO]: [PlotMe] Disabling PlotMe v0.16.3
+[03:00:03] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.0.1-b342
+[03:00:03] [Server thread/INFO]: [Essentials] Disabling Essentials v2.0.1-b342
+[03:00:03] [Server thread/INFO]: [Vault][Economy] Essentials Economy unhooked.
+[03:00:03] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.0.2
+[03:00:03] [Server thread/INFO]: [LaggRemover] Disabling LaggRemover v0.2.2
+[03:00:03] [Server thread/INFO]: [LaggRemover] LaggRemover has been disabled!
+[03:00:03] [Server thread/INFO]: [Vault] Disabling Vault v1.6.6-b${env.TRAVIS_BUILD_NUMBER}
+[03:00:03] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v1.8.5
+[03:00:03] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[03:00:03] [Server thread/INFO]: [GroupManager] Disabling GroupManager v2.0.1-b332
+[03:00:03] [Server thread/INFO]: WEPIF: GroupManager detected! Using GroupManager for permissions.
+[03:00:03] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is disabled!
+[03:00:03] [Server thread/INFO]: GroupManager version 2.0.1-b332 is disabled!
+[03:00:03] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v2.1.7
+[03:00:03] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[03:00:03] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[03:00:03] [Server thread/INFO]: [RandomPlacer] Disabling RandomPlacer v2.0
+[03:00:03] [Server thread/INFO]: [AsyncWorldEdit] Disabling AsyncWorldEdit v2.3.0
+[03:00:03] [Server thread/INFO]: [AsyncWorldEdit] Disabled
+[03:00:03] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1.3;7a097ca
+[03:00:03] [Server thread/INFO]: [CoreProtect] Disabling CoreProtect v2.12.0
+[03:00:03] [Server thread/INFO]: [AsyncWorldEditInjector] Disabling AsyncWorldEditInjector v2.3.0
+[03:00:03] [Server thread/INFO]: [AsyncWorldEditInjector] Disabled
+[03:00:03] [Server thread/INFO]: Saving players
+[03:00:03] [Server thread/INFO]: Saving worlds
+[03:00:03] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[03:00:03] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[03:00:03] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End

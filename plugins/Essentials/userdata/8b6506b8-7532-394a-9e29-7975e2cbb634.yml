@@ -1,9 +1,9 @@
 lastAccountName: kkren
 timestamps:
-  login: 1499749961499
+  login: 1499989649798
   lastteleport: 1499752090059
-  logout: 1499753771676
-ipAddress: 49.66.17.180
+  logout: 1499989800490
+ipAddress: 122.192.12.87
 lastlocation:
   world: world
   x: -80.36626123091999
@@ -13,11 +13,11 @@ lastlocation:
   pitch: 21.3
 logoutlocation:
   world: world
-  x: -77.84811030104098
-  y: 91.0
-  z: -256.78414466232385
-  yaw: -164.69977
-  pitch: 37.35002
+  x: -62.66056593207924
+  y: 63.0
+  z: -271.4882767944684
+  yaw: 1.0495605
+  pitch: 31.349981
 homes:
   home:
     world: world
