@@ -548,7 +548,7 @@ protect:
   # 总体的物理现象或行为的设置
   prevent:                                 # 阻止以下现象(译注:true就是阻止,false是允许,这里需要注意一下)
     lava-flow: false                       # 阻止 岩浆的流动
-    water-flow: false                      # 阻止 水的流动
+    water-flow: true                      # 阻止 水的流动
     water-bucket-flow: false               # 阻止 水桶水的流动
     fire-spread: true                      # 阻止 火的传播
     lava-fire-spread: true                 # 阻止 岩浆引起的火的传播
