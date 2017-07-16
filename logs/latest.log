@@ -1,17 +1,17 @@
-[02:59:56] [Server thread/INFO]: Starting minecraft server version 1.11.2
-[02:59:56] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
-[02:59:56] [Server thread/INFO]: Loading properties
-[02:59:56] [Server thread/INFO]: Default game type: SURVIVAL
-[02:59:57] [Server thread/INFO]: This server is running Paper version git-Paper-1104 (MC: 1.11.2) (Implementing API version 1.11.2-R0.1-SNAPSHOT)
-[02:59:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:59:57] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:59:57] [Server thread/INFO]: Debug logging is disabled
-[02:59:57] [Server thread/INFO]: Generating keypair
-[02:59:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:59:58] [Server thread/INFO]: Using epoll channel type
-[03:00:01] [Server thread/WARN]: Failed to generate a seed from SecureRandom within 3 seconds. Not enough entrophy?
-[03:00:01] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[03:00:01] [Server thread/WARN]: The exception was: java.io.IOException: Error during bind(...): Address already in use
-[03:00:01] [Server thread/WARN]: Perhaps a server is already running on that port?
-[03:00:01] [Server thread/INFO]: Stopping server
-[03:00:01] [Server thread/INFO]: Saving players
+[02:59:59] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[02:59:59] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[02:59:59] [Server thread/INFO]: Loading properties
+[02:59:59] [Server thread/INFO]: Default game type: SURVIVAL
+[02:59:59] [Server thread/INFO]: This server is running Paper version git-Paper-1104 (MC: 1.11.2) (Implementing API version 1.11.2-R0.1-SNAPSHOT)
+[02:59:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:59:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:59:59] [Server thread/INFO]: Debug logging is disabled
+[03:00:00] [Server thread/INFO]: Generating keypair
+[03:00:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:00:00] [Server thread/INFO]: Using epoll channel type
+[03:00:03] [Server thread/WARN]: Failed to generate a seed from SecureRandom within 3 seconds. Not enough entrophy?
+[03:00:03] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[03:00:03] [Server thread/WARN]: The exception was: java.io.IOException: Error during bind(...): Address already in use
+[03:00:03] [Server thread/WARN]: Perhaps a server is already running on that port?
+[03:00:03] [Server thread/INFO]: Stopping server
+[03:00:03] [Server thread/INFO]: Saving players
