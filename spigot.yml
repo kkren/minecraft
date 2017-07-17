@@ -20,11 +20,11 @@ messages:
   restart: Server is restarting
 settings:
   save-user-cache-on-stop-only: false
-  filter-creative-items: true
   bungeecord: false
   late-bind: false
   sample-count: 12
   player-shuffle: 0
+  filter-creative-items: true
   user-cache-size: 1000
   int-cache-limit: 1024
   moved-wrongly-threshold: 0.0625
@@ -46,10 +46,10 @@ settings:
   debug: false
 commands:
   tab-complete: 0
-  silent-commandblock-console: false
   log: true
   spam-exclusions:
   - /skill
+  silent-commandblock-console: false
   replace-commands:
   - setblock
   - summon
